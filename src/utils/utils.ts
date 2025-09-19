@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Dipcoin LLC
+// SPDX-License-Identifier: Apache-2.0
+
 import { SuiClient } from "@mysten/sui/client";
 import { BCS, getSuiMoveConfig } from "@benfen/bcs";
 import { RawData } from "@mysten/sui/client";

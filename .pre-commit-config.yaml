@@ -13,4 +13,4 @@ repos:
           - //                            # defaults to:  #
           - --use-current-year
         # 目标文件类型: src/ 目录下的 ts，js 文件
-        files: ^src/.*\.(ts|js)$
+        files: ^(src|test)/.*\.(ts|js)$

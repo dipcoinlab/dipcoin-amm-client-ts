@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Dipcoin LLC
+// SPDX-License-Identifier: Apache-2.0
+
 import { SuiClient } from "@mysten/sui/client";
 import { coinWithBalance, Transaction } from "@mysten/sui/transactions";
 import { Keypair } from "@mysten/sui/cryptography";
