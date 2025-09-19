@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.5  # 使用最新版本
+    hooks:
+      - id: insert-license
+        name: Add License Header
+        description: 自动为文件添加开源协议头
+        # 配置协议类型（支持 mit/apache/gpl 等，或自定义模板）
+        args:
+          - --license-filepath
+          - ./copyright.txt
+          - --comment-style
+          - //                            # defaults to:  #
+          - --use-current-year
+        # 目标文件类型: src/ 目录下的 ts，js 文件
+        files: ^src/.*\.(ts|js)$
