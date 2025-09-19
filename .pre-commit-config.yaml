@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.5
+    hooks:
+      - id: insert-license
+        name: Add License Header
+        description: Auto add license header
+        args:
+          - --license-filepath
+          - ./copyright.txt
+          - --comment-style
+          - //
+          - --use-current-year
+        files: ^(src|test)/.*\.(ts|js)$

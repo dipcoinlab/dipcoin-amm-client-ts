@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Dipcoin LLC
+// SPDX-License-Identifier: Apache-2.0
+
 import { getFullnodeUrl } from "@mysten/sui/client";
 import { DipCoinSDKOptions } from "../types";
 import { DipCoinSDK } from "../sdk";

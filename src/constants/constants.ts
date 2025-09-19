@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Dipcoin LLC
+// SPDX-License-Identifier: Apache-2.0
+
 import { MIST_PER_SUI } from "@mysten/sui/utils";
 
 export const DEFAULT_SLIPPAGE = 0.05;
