@@ -7,7 +7,7 @@ import BigNumber from "bignumber.js";
  * Utility class for performing swap-related mathematical calculations
  */
 export class SwapMath {
-  private static readonly MAX_FEE_RATE = new BigNumber(2000); // Maximum transaction fee rate 1%
+  private static readonly MAX_FEE_RATE = new BigNumber(2000); // Maximum transaction fee rate 20%
   private static readonly FEE_SCALE = new BigNumber(10000);
   private static readonly U64_MAX = new BigNumber("18446744073709551615");
 
